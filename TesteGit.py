@@ -42,3 +42,11 @@ print (numbers)
 # Em Python, quando se quer indicar números decimais, nos quais a parte inteira
 # é zero, basta utilizar .1 ou .2 ou etc. Não precisa colocar o zero, assim como
 # é feito na engenharia. 
+#
+# Git linha de comando:
+# git config --global user.email "andreribeirovieira@gmail.com"
+# git config --global user.name "Andre"
+# git add TesteGit.py
+# git commit ===> Ele irá pedir uma msg pelo nano
+# git push ===> Ele irá pedir o usuário e a senha
+# 
