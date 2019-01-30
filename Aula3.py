@@ -43,7 +43,12 @@ for chave, valor in contador.items():
 # Tupla de um elemento só: Eu posso definir uma tupla com um elemento só da seguinte maneira
 # Esse exemplo gera um erro pq a tupla foi mal formada. Na hora de fazer o unpack do for, 
 # chegando na última tupla, essa não tem o elemento necessário para preencher a variável valor
-# print ("\nExemplo 5:")
+print ("\nExemplo 5: Gera um erro, ver no código")
 # lista_tuplas = [(1, 2), (2, 3), (3, )]
 # for chave, valor in lista_tuplas:
 #	print (chave, valor)
+
+
+
+# Frequencia de elementos em uma lista. Posso usar a classe counter
+print (contador.most_common(6))
