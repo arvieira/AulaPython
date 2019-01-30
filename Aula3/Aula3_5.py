@@ -1,3 +1,6 @@
+import os
+
+
 # Trabalhando com arquivos em Python.
 # Para abrir o arquivo usa a função open("nome/do/aruqivo", <parametro>)
 # <parametro>:
@@ -16,8 +19,10 @@
 
 
 arquivo = open ("./saida.txt", "w")
-arquivo.write ("Teste")
-arquivo.close ()
+arquivo.write ("Teste")			# O retorno do write é o número de bytes escritos
+arquivo.close ()			# Como eu abri para escrita, eu preciso fechar antes de abrir para ler
 
 arquivo = open ("./saida.txt")
 print (arquivo.readline())
+print (os.path.realpath(arquivo.name))
+arquivo.close()
