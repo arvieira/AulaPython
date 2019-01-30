@@ -19,6 +19,9 @@ print (quadrado(10))
 
 
 
+# Exercício: Fazer uma função que conte os termos passados como parâmetro
+# O argumento pode ser uma lista de números ou de palavras, por isso deve ser
+# verificado.
 def maisFrequente (lista):
 	if type(lista) == str:
 		lista = lista.split()
